@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+      integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N"
+      crossorigin="anonymous"
+    />
+
+    <title>Page After Login</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body style="position: relative;">
+    <!-- TOPMOST HEADER FOR ANDROIDS -->
+    <section class="d-lg-none text-right pr-4">
+      <img src="images/Group 3.svg" alt="" />
+    </section>
+
+    <!-- topmost header -->
+    <section class="d-none d-xl-block d-lg-block">
+      <div
+        class="top-header d-flex justify-content-around py-2 align-items-center"
+      >
+        <div class="atg-logo"><img src="images/whole.png" alt="" /></div>
+        <div>
+          <img src="images/baseline-search-24px.svg" alt="search-icon" />
+          <input
+            type="search"
+            name=""
+            class="px-4"
+            placeholder="Search for your favorite groups in ATG"
+            style="border: 1px solid gray; border-radius: 15px; width: 350px"
+          />
+        </div>
+        <div>
+          <img src="images/joseph.png" alt="user-img" height="25px" />
+          <span style="font-size: 14px; font-weight: 520">Siddharth Goyal</span
+          ><img src="images/baseline-arrow_drop_down-24px.svg" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <!-- first section -->
+    <section class="first-section">
+      <div class="rect1">
+        <img
+          src="images/rect1.png"
+          class="img-fluid rect1"
+          alt="rectangle 1 image"
+        />
+        <div class="rect1text text-light">
+          <p class="h4">Computer Engineering</p>
+          <p>142,765 Computer Engineers follow this</p>
+        </div>
+        <!-- join group button for devices except desktop -->
+        <div class="join-button">
+          <button
+            type="button"
+            class="btn btn-sm btn-outline-light position-absolute mt-3 mr-4 d-lg-none"
+            style="top: 0; right: 0"
+            data-toggle="modal"
+            data-target="#create-account-modal"
+          >
+            Leave Group
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <div class="px-xl-5 mx-xl-5 px-lg-5 mx-lg-5 px-md-5 mx-md-5 px-sm-5">
+      <!-- header for desktop devices -->
+      <section class="d-none d-xl-block d-lg-block">
+        <nav class="navbar navbar-expand-md navbar-light nav-head">
+          <div class="navbar-nav">
+            <a class="nav-item nav-link active" href="#"
+              >All Posts(32) <span class="sr-only">(current)</span></a
+            >
+            <a class="nav-item nav-link" href="#">Article</a>
+            <a class="nav-item nav-link" href="#">Event</a>
+            <a class="nav-item nav-link" href="#">Education</a>
+            <a class="nav-item nav-link" href="#">Job</a>
+          </div>
+          <div
+            class="nav navbar-nav navbar-right"
+            style="position: absolute; right: 0"
+          >
+            <button
+              class="btn btn-sm"
+              style="
+                background-color: rgba(206, 206, 206, 0.918);
+                margin-right: 20px;
+              "
+            >
+              Write Post
+              <img src="images/-arrow_drop_down-24px.svg" alt="" />
+            </button>
+
+            <button
+              type="button"
+              class="btn btn-sm btn-primary"
+              data-toggle="modal"
+              data-target="#create-account-modal"
+            >
+              <img
+                src="images/baseline-group_add-24px.svg"
+                alt="join-gropu-icon"
+              />
+              Join Group
+            </button>
+          </div>
+        </nav>
+      </section>
+      <div class="second-section position-relative">
+        <!-- article section section2 -->
+        <div class="article d-inline-block">
+          <div class="article-image">
+            <img
+              src="images/rect2.png"
+              class="img-fluid rect1"
+              alt="rectangle 1 image"
+            />
+            <div class="rect2text d-xs-block d-sm-none">
+              <p class="h5">Posts(368)</p>
+              <div class="filtersect bg-light">
+                <strong>Filter:</strong>
+                <img
+                  src="images/baseline-arrow_drop_down-24px.svg"
+                  alt="drop-down-icon"
+                />
+              </div>
+            </div>
+          </div>
+
+          <div class="p-3">
+            <strong>✍️ Article</strong>
+            <div class="contentbox position-relative">
+              <h6>
+                What if famous brands had regular fonts? Meet RegularBrands!
+              </h6>
+              <button class="btn btn-sm btn-light button">
+                <strong>...</strong>
+              </button>
+              <p style="color: gray">
+                I've worked in UX for the better part of a decade. From now on,
+                I plan to rei...
+              </p>
+              <img src="images/sarthak.png" alt="user-img" />
+              <strong>Sarthak Kamra</strong>
+              <div class="share-section">
+                <img
+                  src="images/visibility_24px.svg"
+                  class="px-2"
+                  alt="visibility-icon"
+                />
+                1.4k views
+                <img src="images/baseline-share-24px.svg" alt="share icon" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="address d-none d-lg-inline-block d-xl-inline-block">
+          <div
+            class="d-inline-block"
+            style="
+              position: absolute;
+              right: 0;
+              top: 30px;
+              padding-right: 200px;
+              font-size: small;
+            "
+          >
+            <img
+              src="images/outline-location_on-24px 2.svg"
+              alt="location-icon"
+            />
+            <span class="pl-5">Noida, India</span>
+            <img src="images/baseline-edit-24px.svg" alt="edit-icon" />
+            <hr />
+            <br />
+            <div>
+              <img
+                src="images/baseline-error_outline-24px.svg"
+                alt="error-icon"
+              />
+              <p class="d-inline pl-1" style="color: gray">
+                Your location will help us serve better and <br />
+                <span class="pl-4"> extend a personalized</span>
+                experience.
+              </p>
+            </div>
+
+            <!-- recommended groups -->
+            <div class="mt-3">
+              <p>
+                <img
+                  src="images/twotone-thumb_up-24px.svg"
+                  class="pr-3"
+                  alt=""
+                /><b> RECOMMENDED GROUPS</b>
+              </p>
+
+              <ul class="list-unstyled followed" style="width: 300px">
+                <li>
+                  <img
+                    class="px-3 pb-3"
+                    src="images/leisure.png"
+                    alt=""
+                  />Leisure
+                  <button class="btn btn-sm" id="leisure">Follow</button>
+                </li>
+                <li>
+                  <img
+                    class="px-3 pb-3"
+                    src="images/activism.png"
+                    alt=""
+                  />Activism <button class="btn btn-sm">Follow</button>
+                </li>
+                <li>
+                  <img class="px-3 pb-3" src="images/mba.png" alt="" />MBA
+                  <button class="btn btn-sm">Follow</button>
+                </li>
+                <li>
+                  <img
+                    class="px-3 pb-3"
+                    src="images/philosphy.png"
+                    alt=""
+                  />Philosphy <button class="btn btn-sm">Follow</button>
+                </li>
+              </ul>
+              <p class="text-right text-primary"><a href="">see more..</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script>
+      var btn = document.getElementById("leisure");
+      btn.addEventListener("click", function disp() {
+        btn.style.backgroundColor = "gray";
+        btn.style.color = "white";
+      });
+    </script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <div>
+      <div
+        style="
+          width: 50px;
+          height: 50px;
+          background-color: red;
+          position: fixed;
+          right: 0vh;
+   bottom: 0;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          border-radius: 50%;
+        "
+        class="d-lg-none"
+      >
+    <img src="images/edit_24px.svg" alt=""></div>
+    </div>
+  </body>
+</html>

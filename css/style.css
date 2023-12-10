@@ -1,0 +1,100 @@
+* {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+h1,h2,h3,h4,h5,h6{
+    overflow-y: hidden;
+}
+.rect1 {
+  position: relative;
+  block-size: auto;
+  min-width: auto;
+  min-height: 190px;
+}
+.rect1 img {
+  filter: brightness(60%);
+}
+.rect1text {
+  position: absolute;
+  bottom: 5%;
+  left: 3%;
+  filter: brightness(100%);
+}
+.rect1text p,
+.rect2text p {
+  overflow-y: hidden;
+}
+.rect2 {
+  position: relative;
+}
+.rect2text p {
+  position: absolute;
+  top: 5%;
+  left: 1%;
+  filter: brightness(100%);
+}
+.filtersect {
+  padding: 5px;
+  position: absolute;
+  top: 5%;
+  right: 5%;
+}
+.button{
+position: absolute;
+top: 0%;
+right: 0%;
+}
+.article,
+.education,
+.meetup,.job{
+    border: 1px solid rgba(206, 206, 206, 0.918);
+    border-radius: 5px;
+    max-width: 520px;
+}
+.share-section{
+    display:inline-block;
+    position:absolute;
+    right:0;
+    padding-top:10px;
+  }
+.menu ul a{
+  color: black;
+  text-decoration: none;
+  padding-right: 30px;
+  padding-bottom: 0;
+}
+.menu{
+  background-color: white;
+  color: black;
+  padding-left: 10px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 0px 5px 1px rgba(179,179,179,1);
+-moz-box-shadow: 0px 0px 5px 1px rgba(179,179,179,1);
+box-shadow: 0px 0px 5px 1px rgba(179,179,179,1);
+}
+/* signup modal */
+.sign-up input,.sign-in input{
+  border: none;
+  padding: 5px;
+  border-right:1px ;
+}
+table input{
+  width: 100%;
+}
+
+.sign-up-form,.sign-in-form{
+  display: flex;
+  justify-content: space-around;
+}
+.followed{
+  position: relative;
+}
+.followed button{
+  font-size: small;
+  background-color: rgb(221, 221, 221);
+  border-radius: 10px;
+  position: absolute;
+  right: 0;
+  padding: 1px 8px;
+}

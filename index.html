@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+
+    <title>WEB Banao</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- TOPMOST HEADER FOR ANDROIDS -->
+<section class="d-lg-none text-right pr-4">
+<img src="images/Group 3.svg" alt="">
+
+</section>
+
+    <!-- topmost header -->
+    <section class="d-none d-xl-block d-lg-block">
+      <div class="top-header d-flex justify-content-around align-items-center">
+        <div class="atg-logo"><img src="images/whole.png" alt=""></div>
+        <div>
+          <img src="images/baseline-search-24px.svg" alt="search-icon">
+          <input type="search" name="" class="px-4" placeholder="Search for your favorite groups in ATG" style="border: 1px solid gray;
+          border-radius: 15px;">
+        </div>
+        <div>
+          <p>Create account.             
+            <button type="button" class="btn btn-sm text-primary" data-toggle="modal" data-target="#create-account-modal">
+            it's free
+          </button>
+
+            </p>
+          
+        </div>
+      </div>
+      
+      
+    </section>
+
+
+    <!-- first section -->
+    <section class="first-section">
+      <div class="rect1">
+        <img
+          src="images/rect1.png"
+          class="img-fluid rect1"
+          alt="rectangle 1 image"
+        />
+        <div class="rect1text text-light">
+          <p class="h4">Computer Engineering</p>
+          <p>142,765 Computer Engineers follow this</p>
+        </div>
+        <!-- join group button for devices except desktop -->
+        <div class="join-button">
+          
+          <button type="button" class="btn btn-sm btn-outline-light position-absolute mt-3 mr-4 d-lg-none"  style="top: 0; right: 0;" data-toggle="modal" data-target="#create-account-modal">
+            Join Group
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- section 3 -->
+
+    <div class="px-xl-5 mx-xl-5 px-lg-5 mx-lg-5 px-md-5 mx-md-5 px-sm-5">
+      <!-- header for desktop devices -->
+      <section class="d-none d-xl-block d-lg-block">
+        <nav class="navbar navbar-expand-md navbar-light nav-head">
+          <div class="navbar-nav">
+            <a class="nav-item nav-link active" href="#"
+              >All Posts(32) <span class="sr-only">(current)</span></a
+            >
+            <a class="nav-item nav-link" href="#">Article</a>
+            <a class="nav-item nav-link" href="#">Event</a>
+            <a class="nav-item nav-link" href="#">Education</a>
+            <a class="nav-item nav-link" href="#">Job</a>
+          </div>
+          <div
+            class="nav navbar-nav navbar-right"
+            style="position: absolute; right: 0"
+          >
+            <button class="btn btn-sm" style="background-color: rgba(206, 206, 206, 0.918);margin-right: 20px;">
+              Write Post
+              <img src="images/-arrow_drop_down-24px.svg" alt="" />
+            </button>
+
+
+            <button type="button" class="btn btn-sm btn-primary" data-toggle="modal" data-target="#create-account-modal">
+              <img src="images/baseline-group_add-24px.svg" alt="join-gropu-icon" /> Join Group
+            </button>
+
+          </div>
+        </nav>
+      </section>
+      <div class="second-section position-relative">
+        <!-- article section section2 -->
+        <div class="article d-inline-block">
+          <div class="article-image">
+            <img src="images/rect2.png" class="img-fluid rect1" alt="rectangle 1 image" />
+            <div class="rect2text d-xs-block d-sm-none">
+              <p class="h5">Posts(368)</p>
+              <div class="filtersect bg-light">
+                <strong>Filter:</strong>
+                <img src="images/baseline-arrow_drop_down-24px.svg" alt="drop-down-icon"/>
+              </div>
+            </div>
+          </div>
+
+          <div class="p-3">
+            <strong>✍️ Article</strong>
+            <div class="contentbox position-relative">
+              <h6>
+                What if famous brands had regular fonts? Meet RegularBrands!
+              </h6>
+              <button class="btn btn-sm btn-light button">
+                <strong>...</strong>
+              </button>
+              <p style="color: gray">
+                I've worked in UX for the better part of a decade. From now on, I
+                plan to rei...
+              </p>
+              <img src="images/sarthak.png" alt="user-img" />
+              <strong>Sarthak Kamra</strong>
+              <div class="share-section">
+                <img src="images/visibility_24px.svg" class="px-2" alt="visibility-icon"/>
+                1.4k views
+                <img src="images/baseline-share-24px.svg" alt="share icon" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="address d-none d-lg-inline-block d-xl-inline-block">
+          <div class="d-inline-block" style="position: absolute; right: 0; top: 30px; font-size: small">
+            <img src="images/outline-location_on-24px 2.svg" alt="location-icon" />
+            <span class="pl-5">Noida, India</span>
+            <img src="images/baseline-edit-24px.svg" alt="edit-icon" />
+            <hr /><br />
+            <div>
+              <img src="images/baseline-error_outline-24px.svg" alt="error-icon"/>
+              <p class="d-inline pl-1" style="color: gray">
+                Your location will help us serve better and <br />
+                <span class="pl-4"> extend a personalized</span>
+                experience.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- education -->
+      <div class="education d-block my-2">
+        <div class="education-image">
+          <img src="images/Rectangle 5.png" class="img-fluid rect1" alt="rectangle 1 image"/>
+        </div>
+
+        <div class="third p-3">
+          <p style="font-weight: 500;">🔬️ Education</p>
+          <div class="contentbox position-relative">
+            <h6 class="">
+              Tax Benefits for Investments under National Pension Scheme
+              launched by Governmant
+            </h6>
+            <button class="btn btn-sm btn-light button">
+              <strong>...</strong>
+            </button>
+            <p style="color: gray">
+              I've worked in UX for the better part of a decade. From nowon, I
+              plan to rei...
+            </p>
+            <img src="images/sarah.png" alt="user-img" />
+            <strong>Sarah West</strong>
+            <div class="share-section">
+              <img src="images/visibility_24px.svg" class="px-2" alt="visibility-icon"/>
+              1.4k views
+              <img src="images/baseline-share-24px.svg" alt="share icon" />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- meetup -->
+
+      <div class="meetup d-block mb-2">
+        <div class="meetup-image">
+          <img src="images/car.png" class="img-fluid rect1" alt="rectangle 1 image" />
+        </div>
+
+        <div class="third p-3">
+          <p style="font-weight: 500;">🗓️ Meetup</p>
+          <div class="contentbox position-relative">
+            <h6 class="">
+              Finance & Investment Elite Social Mixer @Lujiazui
+            </h6>
+            <button id ="show" class="btn btn-sm btn-light button">
+              <strong>...</strong>
+            </button>
+  
+                <div class="menu" style="display: none;position: absolute;right: 0;">
+                  <ul class="mb-0 py-2 pr-4 list-unstyled">
+                    <li><a href="#">Edit</a></li>
+                    <li><a href="#">Report</a></li>
+                    <li><a href="#">Option3</a></li>
+                  </ul>
+                </div>
+            <p style="font-size: small; font-weight: 500;" class="mb-0">
+              <img src="images/baseline-today-24px.svg" alt="" />Fri, 12 Oct,
+              2018 <span class="pl-5"><img src="images/outline-location_on-24px 2.svg" alt="">Ahemdabad, India
+            </p><br>
+            <p class="border btn btn-sm d-block text-center" style="color: orange;"> View Website</p>
+            <img src="images/roonal.png" alt="user-img" />
+            <strong>Ronal jones</strong>
+            <div
+              class="share-section" >
+              <img src="images/visibility_24px.svg" class="px-2" alt="visibility-icon" />
+              1.4k views
+              <img src="images/baseline-share-24px.svg" alt="share icon" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- job -->
+      <div class="job d-block" style="margin-bottom: 50px;">
+
+        <div class="third p-3">
+          <p style="font-weight: 500;">💼️ Job</p>
+          <div class="contentbox position-relative">
+            <h5>
+              Software Developer
+            </h5>
+            <button id ="show" class="btn btn-sm btn-light button">
+              <strong>...</strong>
+            </button>
+  
+            <p style="font-size: small; font-weight: 500;" class="mb-0">
+              <img src="images/outline-work_outline-24px.svg" alt="" />Innovaccer Analytics Private Ltd.
+              <span class="pl-5"><img src="images/outline-location_on-24px 2.svg" alt="">Noida, India
+            </p><br>
+            <p class="border btn btn-sm d-block text-center text-success"> Apply on TimesJob</p>
+            <img src="images/joseph.png" alt="user-img" />
+            <strong>Joseph Gray</strong>
+            <div class="share-section" >
+              <img src="images/visibility_24px.svg" class="px-2" alt="visibility-icon" />
+              1.4k views
+              <img src="images/baseline-share-24px.svg" alt="share icon" />
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $('#show').click(function() {
+      $('.menu').toggle("slide");
+    });
+});
+</script>
+            <!-- create account or join group modal  -->
+
+<div class="modal fade" id="create-account-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  
+  <div class="modal-dialog modal-dialog-centered modal-lg mw-100" style="width: 700px;" role="document">
+
+    <div class="modal-content rounded-2">
+  
+      
+      <div class="d-none d-xl-block d-lg-block p-0">
+        <button type="button" class="close d-none d-xl-block d-lg-block pr-2" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+        <p style="font-size:11px;background-color:#d9f7dbe9;" class="modal-title text-success text-center py-2" id="create-account-modalTitle">Let's learn, share & inspire each other with our passion for computer engineering. Sign up now 🤘🏼</p>
+
+      </div>
+     <div class="modal-body">
+      <button type="button" class="close d-lg-none pr-2" data-dismiss="modal" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+      </button>
+      <h3>Create Account</h3>     
+  
+
+
+      <div class="sign-up-form">
+      
+      <div class="sign-up">
+        <form action="" method="post">
+          <table class="table-bordered"style= "width:100%;">
+            <tr>
+              <td><input type="text" name="" id="" placeholder="First Name"></td>
+              <td><input type="text" name="" id="" placeholder="Last Name"></td>
+            </tr>
+            <tr>
+              <td colspan="2"><input type="email" name="" id=""placeholder="Email"></td>
+            </tr>
+            <tr>
+              <td colspan="2" class=""><input type="password" name="" id=""placeholder="Password"></td>
+            </tr>
+            <tr>
+              <td colspan="2"><input type="password" name="" id=""placeholder="Confirm Password"></td>
+            </tr>
+          </table>
+          <button type="submit" class="btn btn-sm btn-primary mt-3 mb-1 w-100 d-none d-lg-block">Create Account</button>
+          <div class="d-lg-none d-flex justify-content-between align-items-center">
+            <button type="submit" class="btn btn-sm btn-primary mt-3 mb-1">Create Account</button>
+           
+          <button type="button" class="btn btn-sm text-primary" data-toggle="modal" data-target="#login-modal" data-dismiss="modal">or, Sign In</button>
+
+          </div>
+          <button class="btn btn-sm btn btn-outline-light text-dark border w-100"> <img src="images/f_logo_RGB-Blue_1024.png" class="px-3 mb-2"> Sign up with Facebook</button>
+          <button class="btn btn-sm btn btn-outline-light text-dark border w-100"> <img src="images/search.png" class="px-3"> Sign up Google</button>
+          <div class="d-lg-none mt-2">
+            <small> By signing up, you agree to our Terms & conditions, Privacy policy</small></div>
+        </form>
+
+      </div>
+
+      <div class="signup-side text-center d-none d-lg-inline-block d-xl-inline-block">
+        <p class="">Already have an account? 
+        
+          <button type="button" class="btn btn-sm text-primary" data-toggle="modal" data-target="#login-modal" data-dismiss="modal">Sign In</button>
+
+        </p>
+        <img src="images/group3.1bb6213651fd38d51ded.png" alt="" height="190px">
+        <p><small> By signing up, you agree to our Terms & conditions, Privacy policy</small></p>
+      </div>
+      </div>
+     </div>
+
+    </div>
+  </div>
+</div>
+
+
+<!-- login modal -->
+<div class="modal fade" id="login-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  
+  <div class="modal-dialog modal-dialog-centered modal-lg mw-100" style="width: 700px;" role="document">
+
+    <div class="modal-content rounded-2">
+  
+      
+      <div class="d-none d-xl-block d-lg-block p-0">
+        <button type="button" class="close d-none d-xl-block d-lg-block pr-2" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+        <p style="font-size:11px;background-color:#d9f7dbe9;" class="modal-title text-success text-center py-2" id="create-account-modalTitle">Let's learn, share & inspire each other with our passion for computer engineering. Sign up now 🤘🏼</p>
+
+      </div>
+     <div class="modal-body">
+      <button type="button" class="close d-lg-none pr-2" data-dismiss="modal" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+      </button>
+      <h3>Sign In</h3>     
+  
+
+
+      <div class="sign-in-form">
+      
+      <div class="sign-in">
+        <form action="" method="post">
+          <table class="table-bordered"style= "width:100%;">
+
+            <tr>
+              <td colspan="2"><input type="email" name="" id=""placeholder="Email"></td>
+            </tr>
+            <tr>
+              <td colspan="2" class=""><input type="password" name="" id=""placeholder="Password"></td>
+            </tr>
+
+          </table>
+          
+          <a class="btn btn-sm btn-primary mt-3 mb-1 w-100 d-none d-lg-block" href="page_after_login.html">Sign In</a>
+          <div class="d-lg-none d-flex justify-content-between align-items-center">
+            
+            <a class="btn btn-sm btn-primary" href="page_after_login.html">Sign In</a>
+            
+            <button type="button" class="btn btn-sm text-primary" data-toggle="modal" data-target="#create-account-modal" data-dismiss="modal">or, Create Account</button>
+
+          </div>
+          <button class="btn btn-sm btn btn-outline-light text-dark border w-100"> <img src="images/f_logo_RGB-Blue_1024.png" class="px-3 mb-2"> Sign in with Facebook</button>
+          <button class="btn btn-sm btn btn-outline-light text-dark border w-100"> <img src="images/search.png" class="px-3"> Sign In Google</button>
+
+        </form>
+        <p class="text-center mt-3" style="font-size: small;font-weight: bold;">Forget Password ?</p>
+      </div>
+
+      <div class="signin-side text-center d-none d-lg-inline-block d-xl-inline-block">
+        <p class="">Don't have an account yet? 
+          <!-- <a href="#">Create new for free</a> -->
+          <button type="button" class="btn btn-sm text-primary" data-toggle="modal" data-target="#create-account-modal" data-dismiss="modal">Create new for free</button>
+
+        </p>
+        <img src="images/group3.1bb6213651fd38d51ded.png" alt="" height="190px">
+        
+      </div>
+      
+      </div>
+     </div>
+
+    </div>
+  </div>
+</div>
+
+
+
+
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  
+  </body>
+</html>
